@@ -27,7 +27,7 @@ const data=[
       image:IMG4,
       title:"ShoppersStop",
       github:"https://github.com/AKsHaT123456A/Resume_Builder",
-      demo:"https://resume-builder-4lbe.vercel.app/"
+      demo:"https://645a66bef8eb8f005450c9e0--darling-kleicha-5cc424.netlify.app/"
     },
     {
       id:4,

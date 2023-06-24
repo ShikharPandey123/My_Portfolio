@@ -7,7 +7,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import Me1 from "../../assets/me3.png"
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" style={{"margin-top":"1rem"}}>
       <h5>Get to Know</h5>
       <h2>About Me</h2>
       <div className="container about_container">
@@ -35,8 +35,8 @@ const About = () => {
             <small>10+ completed Projects</small>
           </article>
         </div>
-        <p>
-            My name is Akshat Mishra,I'm a back-end developer based in Ghaziabad,Uttar Pradesh,India.I am currently an Back-end developer at Computer Society of India.I am developed many backend servers as well as frontend applications.
+        <p style={{"padding":"12px"}}>
+            My name is Akshat Mishra,I'm a MERN developer based in Ghaziabad,Uttar Pradesh,India.I am currently a MERN developer at Computer Society of India.I have developed many backend servers as well as frontend applications.
             <br/>
             I'm passionate about developing new user-friendly applications with beautiful interfaces.I'm also keen in learning new technologies and stacks.  
           </p>

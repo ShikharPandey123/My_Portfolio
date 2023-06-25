@@ -1,4 +1,4 @@
-import React from 'react'
+    import React from 'react'
 import CV from "../../assets/cv.pdf"
 function CTA() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+// import AVTR2 from "../../assets/avatar2.jpg";
+// import AVTR3 from "../../assets/avatar3.jpg";
+// import AVTR4 from "../../assets/avatar4.jpg";
 import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,25 +13,25 @@ import 'swiper/css/pagination';
 const Testimonials = () => {
   const data = [
     {
-      avatar: AVTR2,
+      // avatar: AVTR2,
       name: "ABC",
       review:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error unde tenetur exercitationem eveniet ipsa accusamus perspiciatis pariatur, nihil ducimus asperiores repudiandae magni expedita delectus maiores deserunt, eligendi molestias consequuntur nulla!",
     },
     {
-      avatar: AVTR2,
+      // avatar: AVTR2,
       name: "ABC",
       review:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error unde tenetur exercitationem eveniet ipsa accusamus perspiciatis pariatur, nihil ducimus asperiores repudiandae magni expedita delectus maiores deserunt, eligendi molestias consequuntur nulla!",
     },
     {
-      avatar: AVTR3,
+      // avatar: AVTR3,
       name: "ABC",
       review:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error unde tenetur exercitationem eveniet ipsa accusamus perspiciatis pariatur, nihil ducimus asperiores repudiandae magni expedita delectus maiores deserunt, eligendi molestias consequuntur nulla!",
     },
     {
-      avatar: AVTR4,
+      // avatar: AVTR4,
       name: "ABC",
       review:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error unde tenetur exercitationem eveniet ipsa accusamus perspiciatis pariatur, nihil ducimus asperiores repudiandae magni expedita delectus maiores deserunt, eligendi molestias consequuntur nulla!",

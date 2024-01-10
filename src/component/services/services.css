@@ -42,21 +42,29 @@
   font-size: 0.9rem;
 }
 
+
 @media screen and (max-width: 1024px) {
   .services_container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-  .service{
-    height:8rem;
-    overflow: hidden;
 
+  .service {
+    height: 8rem;
+    overflow: hidden;
   }
 }
 
 @media screen and (max-width: 600px) {
-    .services_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-      }
+  .services_container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .service {
+    height: auto;
+    overflow: visible;
+    width: calc(100% - 2rem); /* Adjust the width as needed */
+  }
 }
+

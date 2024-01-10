@@ -83,6 +83,40 @@ const Experience = () => {
                 <small className='text-light'>Intermediate</small></div>
             </article>       
         </div>
+        <div className="experience_frontend">
+          <div className="experience_content">
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+               <div> <h4>HTML</h4>
+                <small className='text-light'>Experienced</small></div>
+            </article>
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+             <div>   <h4>CSS</h4>
+                <small className='text-light'>Intermediate</small></div>
+            </article>
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+               <div> <h4>Bootstrap</h4>
+                <small className='text-light'>Beginner</small></div>
+            </article>
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+                <div><h4>React</h4>
+                <small className='text-light'>Intermediate</small></div>
+            </article>
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+               <div> <h4>SCSS</h4>
+                <small className='text-light'>Beginner</small></div>
+            </article>
+            <article className='experience_details'>
+                <BsPatchCheckFill className="experience_details-icons"/>
+               <div> <h4>Tailswind CSS</h4>
+                <small className='text-light'>Beginner</small></div>
+            </article>
+          </div>
+        </div>
        </div>
     </section>
   )

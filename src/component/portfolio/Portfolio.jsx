@@ -11,16 +11,16 @@ const data=[
     {
       id:1,
       image:IMG1,
-      title:"Resume Builder",
+      title:"Exam Portal (Credentials:2200000    Test@2200000)",
       github:"https://github.com/AKsHaT123456A/Resume_Builder",
       demo:"https://resume-builder-4lbe.vercel.app/"
     },
     {
       id:2,
       image:IMG3,
-      title:"Login-Signup(JWT OAuth Reactjs)",
-      github:"https://github.com/AKsHaT123456A/logsignup",
-      demo:null
+      title:"ConnectR",
+      github:"https://github.com/AKsHaT123456A/connectr",
+      demo:"https://connectr.onrender.com/"
     },
     {
       id:3,
@@ -32,9 +32,9 @@ const data=[
     {
       id:4,
       image:IMG5,
-      title:"Social Media Clone(In Progress)",
-      github:"Private at the moment",
-      demo:null
+      title:"MedScheduler",
+      github:"git@github.com:AKsHaT123456A/Amrutam.git",
+      demo:"https://drive.google.com/file/d/1IKNAL-Dc7ce-pSYiV6XUksMmmL2aehIf/view?usp=drivesdk"
     },
     {
       id:5,
@@ -61,7 +61,7 @@ const data=[
         return (
           <article key={id} className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={image} alt=""/>
+            <img src={image} alt="" />
           </div>
             <h3>{title}</h3>
             <a href={github} className="btn">

@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import {MdOutlineAttachEmail} from "react-icons/md";
 import {AiFillMessage} from "react-icons/ai";
-import {IoLogoWhatsapp} from "react-icons/io";
+import { FaDiscord,FaLinkedin  } from "react-icons/fa";
 import{ useRef } from 'react';
 import emailjs from 'emailjs-com';
 const Contact = () => {
@@ -10,7 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_xfx17mw', 'template_797bqt5', form.current, 'icfafpNeP4IOcVXWP');
+    emailjs.sendForm('service_xfx17mw', 'template_797bqt5', form.current, process.env.API_KEY);
     e.target.reset()
       .then((result) => {
           console.log(result.text);
@@ -32,16 +32,16 @@ const Contact = () => {
             <a href="mailto:akshat.srajan@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact_option">
-            <AiFillMessage className="contact_options-icon"/>
-            <h4>Messenger</h4>
+            <FaLinkedin  className="contact_options-icon"/>
+            <h4>Linkedin</h4>
             <h5>Akshat Mishra</h5>
-            <a href="https://m.me/akshat.mishra" target="_blank">Send a message</a>
+            <a href="https://www.linkedin.com/in/akshat-mishra-43930b235/" target="_blank">Send a message</a>
           </article>
           <article className="contact_option">
-            <IoLogoWhatsapp className="contact_options-icon"/>
-            <h4>WhatsApp</h4>
-            <h5>933*****91</h5>
-            <a href="https://api.whatsapp.com/send?phone=+919336183391" target="_blank">Send a message</a>
+            <FaDiscord className="contact_options-icon"/>
+            <h4>Discord</h4>
+            <h5>akshatmishra</h5>
+            <a href="https://discord.com/channels/912385678006976562/1256316101026119710" target="_blank">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

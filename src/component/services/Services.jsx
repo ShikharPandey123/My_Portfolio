@@ -1,40 +1,40 @@
 import React from "react";
 import "./services.css";
 import { BiCheck } from "react-icons/bi";
+
 const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container services_container">
+        
+        {/* Programming Services */}
         <article className="service">
           <div className="service_head">
-            <h3>Programmer</h3>
+            <h3>Programming</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I am a C++ programmer.</p>
+              <p>Experienced in C++ programming.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I can work for code optimization.</p>
+              <p>Skilled in optimizing code for better performance.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                Currently learning about concepts of Data Structures and
-                Algorithm.
-              </p>
+              <p>Solid understanding of Data Structures and Algorithms.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                I can apply my programming skills as to write a concised code.
-              </p>
+              <p>Proficient in writing clean, concise, and efficient code.</p>
             </li>
           </ul>
         </article>
+
+        {/* Web Development Services */}
         <article className="service">
           <div className="service_head">
             <h3>Web Development</h3>
@@ -42,59 +42,52 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>A MERN Developer.</p>
+              <p>Proficient MERN stack developer (MongoDB, Express, React, Node.js).</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I can develope robust and scalable server-side APIs.</p>
+              <p>Develop robust, scalable server-side APIs.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                Can design and implement RESTful endpoints to handle data
-                retrieval, storage, and manipulation.
-              </p>
+              <p>Design and implement RESTful APIs for data handling and manipulation.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                Can ensure the security of the backend by implementing
-                authentication and authorization mechanisms, such as JSON Web
-                Tokens (JWT) or OAuth.
-              </p>
+              <p>Ensure backend security through authentication (JWT, OAuth) and protection (Helmet).</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                Using React.js, i can built user-friendly and responsive web
-                interfaces.
-              </p>
+              <p>Create responsive, user-friendly web interfaces using React.js and Next.js.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>
-                As a MERN developer i can work on many databases like
-                MongoDb,PostgreSQL,and/or firebase.
-              </p>
+              <p>Experience with various databases such as MongoDB, PostgreSQL, and Firebase.</p>
             </li>
           </ul>
         </article>
+
+        {/* App Development Services */}
         <article className="service">
           <div className="service_head">
-            <h3>Open Source Contributor</h3>
+            <h3>App Development</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I am a active Open Source Contributor.</p>
+              <p>Expertise in React Native and Expo for mobile app development.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>A active participant of GirlScript Summer of Code.</p>
+              <p>Build and deploy cross-platform mobile apps for Android and iOS.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I have been working as a team,with 5+ PRs merged.</p>
+              <p>Integrate APIs seamlessly for enhanced user experiences.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Focus on performance optimization and usability in mobile applications.</p>
             </li>
           </ul>
         </article>

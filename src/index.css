@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap");
 *{
     margin: 0%;
+    /* overflow-x: hidden; */
     padding: 0%;
     border: 0;
     outline: 0;
@@ -28,6 +29,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;

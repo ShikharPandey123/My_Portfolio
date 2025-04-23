@@ -40,35 +40,35 @@ const Services = () => {
             <h3>Web Development</h3>
           </div>
           <ul className="service_list">
-            <li>
+            {/* <li>
               <BiCheck className="service_list-icon" />
               <p>Proficient MERN stack developer (MongoDB, Express, React, Node.js).</p>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <BiCheck className="service_list-icon" />
               <p>Develop robust, scalable server-side APIs.</p>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <BiCheck className="service_list-icon" />
               <p>Design and implement RESTful APIs for data handling and manipulation.</p>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <BiCheck className="service_list-icon" />
               <p>Ensure backend security through authentication (JWT, OAuth) and protection (Helmet).</p>
-            </li>
+            </li> */}
             <li>
               <BiCheck className="service_list-icon" />
               <p>Create responsive, user-friendly web interfaces using React.js and Next.js.</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className="service_list-icon" />
               <p>Experience with various databases such as MongoDB, PostgreSQL, and Firebase.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
         {/* App Development Services */}
-        <article className="service">
+        {/* <article className="service">
           <div className="service_head">
             <h3>App Development</h3>
           </div>
@@ -90,7 +90,7 @@ const Services = () => {
               <p>Focus on performance optimization and usability in mobile applications.</p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   );

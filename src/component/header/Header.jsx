@@ -15,7 +15,6 @@ const Header = () => {
         "Developer",
         "Programmer",
         "Enthusiast",
-        "Open Source Contributor",
       ],
     });
   }, []);
@@ -24,7 +23,7 @@ const Header = () => {
       <header>
         <div className="container header_container">
           <h5>Hello I'm</h5>
-          <h1>Akshat Mishra</h1>
+          <h1>Shikhar Pandey</h1>
           <h5 className="text-light">
             {" "}
             <span ref={textRef} id="span1">

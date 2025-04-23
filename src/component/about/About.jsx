@@ -3,8 +3,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-// import Me from "../../assets/me1.png"
-import Me1 from "../../assets/me3.png"
+import Me1 from "../../assets/Shikhar.jpg";
 const About = () => {
   return (
     <section id="about" style={{ "margin-top": "4rem" }}>
@@ -17,7 +16,7 @@ const About = () => {
           </div>
         </div>
         <div className="about_content">
-          <div className="about_cards">
+          {/* <div className="about_cards">
             <article className="about_card">
               <FaAward id="about_icon" />
               <h5>Experience</h5>
@@ -33,9 +32,9 @@ const About = () => {
               <h5>Projects</h5>
               <small>10+ completed Projects</small>
             </article>
-          </div>
+          </div> */}
           <p style={{ padding: "12px" }}>
-            I'm Akshat Mishra, a Lead Fullstack and App Developer based in Ghaziabad, India. Currently leading a team at the Computer Society of India, I specialize in building scalable backend systems and intuitive frontend applications. I'm passionate about creating seamless user experiences and constantly learning new technologies.
+            I'm Shikhar Pandey, a React.Js Developer based in Ghaziabad, India . Proficient in TailwindCSS , ShadCn and Redux ,I specialize in building intuitive frontend applications . I'm passionate about creating seamless user experiences and constantly learning new technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

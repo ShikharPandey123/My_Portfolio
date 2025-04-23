@@ -28,20 +28,14 @@ const Contact = () => {
           <article className="contact_option">
             <MdOutlineAttachEmail className="contact_options-icon"/>
             <h4>Email</h4>
-            <h5>akshat.srajan@gmail.com</h5>
-            <a href="mailto:akshat.srajan@gmail.com" target="_blank">Send a message</a>
+            <h5>shikhar2003.pandey@gmail.com</h5>
+            <a href="mailto:shikhar2003.pandey@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact_option">
             <FaLinkedin  className="contact_options-icon"/>
             <h4>Linkedin</h4>
-            <h5>Akshat Mishra</h5>
-            <a href="https://www.linkedin.com/in/akshat-mishra-43930b235/" target="_blank">Send a message</a>
-          </article>
-          <article className="contact_option">
-            <FaDiscord className="contact_options-icon"/>
-            <h4>Discord</h4>
-            <h5>akshatmishra</h5>
-            <a href="https://discord.com/channels/912385678006976562/1256316101026119710" target="_blank">Send a message</a>
+            <h5>Shikhar Pandey</h5>
+            <a href="https://www.linkedin.com/in/shikhar-pandey-270545230/" target="_blank">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

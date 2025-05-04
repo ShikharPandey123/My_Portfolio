@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../../assets/ShikharPandey_Resume.pdf"
+import CV from "../../assets/my_resume.pdf"
 function CTA() {
   const handleScroll = (e) => {
     e.preventDefault();

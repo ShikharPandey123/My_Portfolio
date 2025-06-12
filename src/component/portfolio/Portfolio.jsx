@@ -2,15 +2,16 @@ import React from "react";
 import "./portfolio.css";
 import IMG2 from "../../assets/Task_Manager.png";
 import IMG3 from "../../assets/Food-Order.png";
+import IMG4 from "../../assets/job_connect.png";
 
 const Portfolio = () => {
   const data = [
     {
-      id: 2,
-      image: IMG2,
-      title: "Task Manager Web App",
-      github: "https://github.com/ShikharPandey123/Task-and-Event_Manager_Web_App.git",
-      demo: "https://react-router-demo-project-khaki.vercel.app/",
+      id: 3,
+      image: IMG4,
+      title: "Job Application Portal",
+      github: "https://github.com/ShikharPandey123/Job-Application-MERN.git",
+      demo: "https://food-order-web-app-pi.vercel.app/",
     },
     {
       id: 3,
@@ -18,6 +19,13 @@ const Portfolio = () => {
       title: "Food-Ordering-Website",
       github: "https://github.com/ShikharPandey123/Food-Order-Web-App.git",
       demo: "https://food-order-web-app-pi.vercel.app/",
+    },
+    {
+      id: 2,
+      image: IMG2,
+      title: "Task Manager Web App",
+      github: "https://github.com/ShikharPandey123/Task-and-Event_Manager_Web_App.git",
+      demo: "https://react-router-demo-project-khaki.vercel.app/",
     },
   ];
 

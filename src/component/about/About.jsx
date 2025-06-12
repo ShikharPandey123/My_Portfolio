@@ -34,7 +34,7 @@ const About = () => {
             </article>
           </div> */}
           <p style={{ padding: "12px" }}>
-            I'm Shikhar Pandey, a React.Js Developer based in Ghaziabad, India . Proficient in TailwindCSS , ShadCn and Redux ,I specialize in building intuitive frontend applications . I'm passionate about creating seamless user experiences and constantly learning new technologies.
+            I'm Shikhar Pandey, a MERN Stack Developer based in Ghaziabad, India. Proficient in MongoDB, Express.js, React.js, and Node.js, along with tools like TailwindCSS, ShadCN, and Redux, I specialize in building full-stack web applications with clean, scalable code. I'm passionate about developing seamless user experiences and constantly exploring new technologies to level up my skills.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

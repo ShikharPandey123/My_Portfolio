@@ -32,8 +32,8 @@ const Portfolio = () => {
       id: 4,
       image: IMG4,
       title: "Food-Ordering-Website",
-      github: "https://github.com/ShikharPandey123/ceo-client/tree/shikhar",
-      demo: "https://github.com/ShikharPandey123/ceo-client/tree/shikhar",
+      github: "https://github.com/ShikharPandey123/Food-Order-Web-App.git",
+      demo: "https://food-order-web-app-pi.vercel.app/",
     },
   ];
 

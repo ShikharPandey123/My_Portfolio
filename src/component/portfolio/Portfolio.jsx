@@ -1,19 +1,19 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/login_page_indibus.png";
+// import IMG1 from "../../assets/login_page_indibus.png";
 import IMG3 from "../../assets/music_academy.png";
 import IMG4 from "../../assets/Food-Order.png";
 import IMG2 from "../../assets/job_connect.png";
 
 const Portfolio = () => {
   const data = [
-     {
-      id: 1,
-      image: IMG1,
-      title: "Indibus Website Frontend",
-      github: "https://github.com/ShikharPandey123/ceo-client.git",
-      demo: "https://github.com/ShikharPandey123/ceo-client.git",
-    },
+    //  {
+    //   id: 1,
+    //   image: IMG1,
+    //   title: "Indibus Website Frontend",
+    //   github: "https://github.com/ShikharPandey123/ceo-client.git",
+    //   demo: "https://github.com/ShikharPandey123/ceo-client.git",
+    // },
     {
       id: 2,
       image: IMG2,

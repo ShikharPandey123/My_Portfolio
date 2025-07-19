@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 // import IMG1 from "../../assets/login_page_indibus.png";
-import IMG3 from "../../assets/music_academy.png";
+import IMG2 from "../../assets/streamify.png";
+import IMG3 from "../../assets/job_connect.png";
 import IMG4 from "../../assets/Food-Order.png";
-import IMG2 from "../../assets/job_connect.png";
 
 const Portfolio = () => {
   const data = [
@@ -15,18 +15,18 @@ const Portfolio = () => {
     //   demo: "https://github.com/ShikharPandey123/ceo-client.git",
     // },
     {
-      id: 2,
-      image: IMG2,
+     id: 2,
+     image: IMG2,
+     title: "Streamify: Real Time Chat App",
+     github: "https://github.com/ShikharPandey123/Streamify.git",
+     demo: "https://streamify-8sh2.onrender.com/",
+   },
+    {
+      id: 3,
+      image: IMG3,
       title: "Job Application Portal",
       github: "https://github.com/ShikharPandey123/Job-Application-MERN.git",
       demo: "https://github.com/ShikharPandey123/Job-Application-MERN.git",
-    },
-     {
-      id: 3,
-      image: IMG3,
-      title: "Next.JS Dashboard",
-      github: "https://github.com/ShikharPandey123/Music-Academy.git",
-      demo: "https://music-academy-xrkr.vercel.app/",
     },
     {
       id: 4,
